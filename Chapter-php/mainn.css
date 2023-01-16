@@ -1,0 +1,210 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 400;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  background: linear-gradient(135deg, rgb(207, 85, 85), rgb(207, 85, 85));
+}
+.radioo{
+  margin-bottom: 15px;
+  width: 500px;
+}
+.but{
+    height: 10px;
+    margin: 10px 0;
+    height: 10%;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    color: rgb(165, 106, 106);
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.99s ease;
+    background: linear-gradient(135deg, #e5e754, #e5e754);
+  }
+form .but input{
+   /* transform: scale(0.99); */
+   background: linear-gradient(-135deg, #212e04, #b2d31e);
+}
+.fon{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 400;
+}
+.containerr{
+    max-width: 730px;
+    width: 100%;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 400;
+    background-color: rgb(221, 147, 77);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.container{
+  max-width: 800px;
+  width: 100%;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  background-color: rgb(221, 147, 77);
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 40px;
+  font-weight: 800;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 740px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #e5e754, #e5e754);
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 1000;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.99s ease;
+}
+.user-details .containerr .input-boxx input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.99s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}
+
+ form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ form .button input{
+   height: 150%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 800;
+   font-family: 'IBM Plex Sans Thai', sans-serif;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.99s ease;
+   background: linear-gradient(135deg, #e5e754, #e5e754);
+ }
+ form .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #aae02c, #b2d31e);
+  }
+ @media(max-width: 584px){
+ .container{
+  max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  form .category{
+    width: 100%;
+  }
+  .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+  .container .content .category{
+    flex-direction: column;
+  }
+  
+}
+.brk-btn {
+  position: relative;
+  background: none;
+  font-size: 15px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.3em solid #e5e754;
+  padding: 0.5em 1em;
+}
+.brk-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  background: rgb(72, 0, 241);
+  height: 0.3em;
+  right: 20%;
+  top: -0.25em;
+  transform: skewX(-45deg);
+  -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.brk-btn::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  background: rgb(69, 11, 161);
+  height: 0.3em;
+  left: 20%;
+  bottom: -0.25em;
+  transform: skewX(45deg);
+  -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.brk-btn:hover::before {
+  right: 80%;
+}
+.brk-btn:hover::after {
+  left: 80%;
+}
