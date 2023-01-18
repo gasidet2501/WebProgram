@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 body {
-    background-color: #fffd77;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #ece93b;
+    font-family: 'Staatliches', cursive;
     padding: 20px;
     color: white;
   }
   
   .form {
     width: 80%;
-    background-color: #383688;
+    background-color: #2523ac;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;

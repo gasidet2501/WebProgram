@@ -13,7 +13,7 @@
         Username : <input type="text" name="user" maxlength="10" /><br> <br>
         Password : <input type="password" name="pass" maxlength="6" /><br> <br>
 
-        ความคิดเห็น : <br><textarea name="comment" cols="40" rows="5" ></textarea><br>
+        Comment : <br><textarea name="comment" cols="40" rows="5" ></textarea><br>
         <br>
         <input type="submit" name="submit"/> 
         <input type="reset" name="reset"/>
