@@ -50,7 +50,7 @@
                         </tr>
                         <tr>
                             <td>ที่อยู่ : </td>
-                            <td><textarea name="address" cols="40" rows="5" value="'.$data['address'].'" required></textarea><font color = "red">*</font></td>
+                            <td><textarea name="address" cols="40" rows="5" value="" required>'.$data['address'].'</textarea><font color = "red">*</font></td>
                         </tr>
                         <tr>
                             <td>อีเมล์ : </td>
