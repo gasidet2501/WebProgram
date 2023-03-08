@@ -64,28 +64,6 @@ CREATE TABLE `customer` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `infocus`
---
-
-CREATE TABLE `infocus` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `address` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `tel` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `infocus`
---
-
-INSERT INTO `infocus` (`id`, `name`, `address`, `email`, `tel`) VALUES
-(1, 'gasidet boonyasakdanon', '405/229', 'mikeysofer@gmail.com', '0909975160'),
-(2, 'Gasidet hahaaa', '444', 'gasidet.bj@gmail.com', '0987654321');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `statusbook`
 --
 

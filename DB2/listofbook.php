@@ -16,9 +16,9 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error); //ให้โชว์ข้อความนี้ขึนมา แล้วออกจากโปรแกรมไปเลยไม่ทำต่อ
     }
-    mysqli_query($conn,"SET character_set_results=tis620");
-    mysqli_query($conn,"SET character_set_client=tis620");
-    mysqli_query($conn,"SET character_set_connection=tis620");
+    mysqli_query($conn,"set character_set_connection=utf8mb4");
+    mysqli_query($conn,"set character_set_client=utf8mb4");
+    mysqli_query($conn,"set character_set_results=utf8mb4");
     $sqltxt = "SELECT * FROM book order by BookID";
     $result = mysqli_query($conn, $sqltxt);
     echo "<CENTER><H3>รายชื่อหนังสือ</H3></CENTER>";
